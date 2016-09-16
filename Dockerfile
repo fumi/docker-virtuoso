@@ -32,7 +32,7 @@ ADD virtuoso.ini /virtuoso.ini
 ADD dump_nquads_procedure.sql /dump_nquads_procedure.sql
 
 # Add Virtuoso log cleaning script
-ADD clean-logs.sh /clean-logs.sh
+#ADD clean-logs.sh /clean-logs.sh
 
 # Add startup script
 ADD virtuoso.sh /virtuoso.sh

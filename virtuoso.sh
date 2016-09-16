@@ -8,8 +8,8 @@ then
   mv /virtuoso.ini . 2>/dev/null
 fi
 
-chmod +x /clean-logs.sh
-mv /clean-logs.sh . 2>/dev/null
+#chmod +x /clean-logs.sh
+#mv /clean-logs.sh . 2>/dev/null
 
 if [ ! -f "/.dba_pwd_set" ];
 then
